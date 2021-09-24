@@ -177,6 +177,10 @@ src port 80
 
 ![image](https://user-images.githubusercontent.com/58259649/134700765-a9cd6f83-6217-461c-b7b8-6a0a22464d6d.png)
 
+### Kendala yang dialami
+
+* awalnya bingung dengan syntax, tetapi sekarang sudah paham
+
 ## Soal 12
 
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
@@ -193,6 +197,10 @@ port 21
 
 ![image](https://user-images.githubusercontent.com/58259649/134700891-496138e5-a75c-4ce5-b213-6ab6e067c6d6.png)
 
+### Kendala yang dialami
+
+* awalnya bingung dengan syntax, tetapi sekarang sudah paham
+
 ## Soal 13
 
 Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
@@ -206,6 +214,10 @@ dst port 443
 2. Hasilnya adalah sebagai berikut
 
 ![image](https://user-images.githubusercontent.com/58259649/134700940-9e4896a7-0959-4885-bf99-fa9cdb867571.png)
+
+### Kendala yang dialami
+
+* awalnya bingung dengan syntax, tetapi sekarang sudah paham
 
 ## Soal 14
 
@@ -222,6 +234,10 @@ dst host kemenag.go.id
 2. Hasilnya adalah sebagai berikut
 
 ![image](https://user-images.githubusercontent.com/58259649/134700994-a67dff0a-e9e1-4e34-bb1d-5e728907686e.png)
+
+### Kendala yang dialami
+
+* awalnya tidak muncul hasil pada wireshark karena lupa membuka website kemenag.go.id
 
 ## Soal 15
 
@@ -242,3 +258,7 @@ src host 192.168.5.37
 3. Hasilnya adalah sebagai berikut
 
 ![image](https://user-images.githubusercontent.com/58259649/134701078-8cd2ed52-0b5b-49c9-81b3-d00cddfafe8e.png)
+
+### Kendala yang dialami
+
+* tidak ada
