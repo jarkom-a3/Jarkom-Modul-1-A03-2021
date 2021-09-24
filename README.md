@@ -155,6 +155,8 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 
 ## Soal 11
 
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+
 1. Menggunakan capture filter
 
 ```
@@ -168,6 +170,8 @@ src port 80
 ![image](https://user-images.githubusercontent.com/58259649/134700765-a9cd6f83-6217-461c-b7b8-6a0a22464d6d.png)
 
 ## Soal 12
+
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 1. Menggunakan capture filter
 
@@ -183,6 +187,8 @@ port 21
 
 ## Soal 13
 
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
 1. Menggunakan capture filter
 
 ```
@@ -194,6 +200,8 @@ dst port 443
 ![image](https://user-images.githubusercontent.com/58259649/134700940-9e4896a7-0959-4885-bf99-fa9cdb867571.png)
 
 ## Soal 14
+
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
 
 1. Menggunakan capture filter
 
@@ -208,6 +216,8 @@ dst host kemenag.go.id
 ![image](https://user-images.githubusercontent.com/58259649/134700994-a67dff0a-e9e1-4e34-bb1d-5e728907686e.png)
 
 ## Soal 15
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 1. Cek IP dengan ipconfig
 
