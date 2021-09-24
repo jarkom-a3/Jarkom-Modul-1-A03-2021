@@ -1,5 +1,13 @@
 # Jarkom-Modul-1-A03-2021
 
+## Anggota
+
+| Nama | NRP |
+| :----: | :----: |
+| Jessica Tasyanita | 05111940000043 |
+| Daniel Sugianto | 05111940000075 |
+| Ryan Fernaldy | 05111940000152 |
+
 ## Soal 1
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 - Jalankan filter command  
