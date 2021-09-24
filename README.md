@@ -155,24 +155,72 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 
 ## Soal 11
 
+1. Menggunakan capture filter
 
+```
+src port 80
+```
 
+![image](https://user-images.githubusercontent.com/58259649/134700754-911b05a0-62b5-414e-b71a-64c4f7eb2981.png)
+
+2. Hasilnya adalah sebagai berikut
+
+![image](https://user-images.githubusercontent.com/58259649/134700765-a9cd6f83-6217-461c-b7b8-6a0a22464d6d.png)
 
 ## Soal 12
 
+1. Menggunakan capture filter
 
+```
+port 21
+```
 
+![image](https://user-images.githubusercontent.com/58259649/134700886-2e39d5a2-384d-4a8f-b047-8de221c69bda.png)
+
+2. Hasilnya adalah sebagai berikut
+
+![image](https://user-images.githubusercontent.com/58259649/134700891-496138e5-a75c-4ce5-b213-6ab6e067c6d6.png)
 
 ## Soal 13
 
+1. Menggunakan capture filter
 
+```
+dst port 443
+```
 
+2. Hasilnya adalah sebagai berikut
+
+![image](https://user-images.githubusercontent.com/58259649/134700940-9e4896a7-0959-4885-bf99-fa9cdb867571.png)
 
 ## Soal 14
 
+1. Menggunakan capture filter
 
+```
+dst host kemenag.go.id
+```
 
+![image](https://user-images.githubusercontent.com/58259649/134700977-711b9e2a-eacb-4c10-ac95-b997b3b11c26.png)
+
+2. Hasilnya adalah sebagai berikut
+
+![image](https://user-images.githubusercontent.com/58259649/134700994-a67dff0a-e9e1-4e34-bb1d-5e728907686e.png)
 
 ## Soal 15
 
+1. Cek IP dengan ipconfig
 
+![image](https://user-images.githubusercontent.com/58259649/134701013-be40d9f8-c5f3-415f-893a-a68b539fec0c.png)
+
+2. Menggunakan capture filter
+
+```
+src host 192.168.5.37 
+```
+
+![image](https://user-images.githubusercontent.com/58259649/134701027-81bd836c-8004-4608-827f-15eb568b8f79.png)
+
+3. Hasilnya adalah sebagai berikut
+
+![image](https://user-images.githubusercontent.com/58259649/134701078-8cd2ed52-0b5b-49c9-81b3-d00cddfafe8e.png)
