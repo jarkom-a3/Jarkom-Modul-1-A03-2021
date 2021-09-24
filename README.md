@@ -1,28 +1,85 @@
 # Jarkom-Modul-1-A03-2021
 
 ## Soal 1
+Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
+- Jalankan filter command  
+```http contains "ichimarumaru.tech"```
+![image](https://user-images.githubusercontent.com/62937814/134695495-6612dab8-409f-4bdf-a30b-c18e79b121c4.png)
 
+- Klik kanan dan pilih menu Follow > TCP Stream
+![image](https://user-images.githubusercontent.com/62937814/134695585-090bbeee-de6f-40ff-bf91-f6b55e172845.png)
+![image](https://user-images.githubusercontent.com/62937814/134695612-358a855e-5ad3-4b2d-a4d1-ce35d9bed91a.png)
 
-
+- Diketahui webserver yang digunakan adalah __nginx/1.18.0 (Ubuntu)__ dengan __destination port 80__
+- Untuk mendapat informasi lebih spesifik, jalankan filter command  
+```http.host == "ichimarumaru.tech"```
+![image](https://user-images.githubusercontent.com/62937814/134696050-8100c26b-05ec-4951-a979-6472d04f01ff.png)
 
 ## Soal 2
-
-
-
+Temukan paket dari web-web yang menggunakan basic authentication method!
+- Jalankan filter command  
+``http.authbasic``
+![image](https://user-images.githubusercontent.com/62937814/134696206-2eb30b33-ee2d-4853-9fcc-bf1a725bd2b4.png)
 
 ## Soal 3
+Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+- Jalankan filter command  
+```http.authbasic```
+![image](https://user-images.githubusercontent.com/62937814/134696332-52462663-810a-481f-8b1b-d09d670a07f6.png)
 
+- Lihat Hypertext Transfer Protocol -> Authorization
+![image](https://user-images.githubusercontent.com/62937814/134696467-d0ccbd8e-3946-4aff-8e77-45f2025c7159.png)
 
+- Dapat kita lihat bahwa terdapat Credentials dengan format username:password  
+Username : __kuncimenujulautan__  
+Password : __tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN__
 
+- Setelah melakukan login, kita akan mendapatkan halaman yang merupakan pertanyaan untuk menjawab urutan konfigurasi pengkabelan T568A
+![image](https://user-images.githubusercontent.com/62937814/134696719-f0edd01f-2d90-4179-ab99-08e88c317e5d.png)
+- Jawaban dari kelompok kami untuk urutan konfigurasi pengkabelan T568A adalah:  
+Urutan T568A :  
+Urutan ke 1 : Putih Hijau  
+Urutan ke 2 : Hijau  
+Urutan ke 3 : Putih Orange  
+Urutan ke 4 : Biru  
+Urutan ke 5 : Putih Biru  
+Urutan ke 6 : Orange  
+Urutan ke 7 : Putih Coklat  
+Urutan ke 8 : Coklat  
 
 ## Soal 4
+Temukan paket __mysql__ yang mengandung __perintah query select!__
+- Jalankan filter command  
+```mysql.query contains "SELECT" or mysql.query contains "select"```
+![image](https://user-images.githubusercontent.com/62937814/134697043-ecd06fcf-2cfb-45ad-a555-2180bee25528.png)
 
-
-
+- Untuk melihat isi dari masing-masing paket, klik dua kali pada paket yang ingin diketahui detailnya
+![image](https://user-images.githubusercontent.com/62937814/134697128-c1f96df9-a1f9-48e9-9f1d-3f023c3c5087.png)
+ditemukan terdapat 3 paket yang mengandung perintah __query select__
 
 ## Soal 5
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+- Jalankan filter command  
+```mysql.query contains "INSERT" or mysql.query contains "insert"```
+![image](https://user-images.githubusercontent.com/62937814/134697356-a122bf99-c68a-4b20-8ee9-8ff4de7e1758.png)
+- Pilih salah satu paket, lalu klik kanan dan pilih menu Follow > TCP Stream
+![image](https://user-images.githubusercontent.com/62937814/134697425-0619b7b3-d46c-4226-b2c5-a045781e0159.png)
+![image](https://user-images.githubusercontent.com/62937814/134697460-272a06b2-a572-4256-bf7f-0613bce417c3.png)
 
-
+- Diketahui data yang di-insert ke table users memiliki username __akakanomi__ dan password __pemisah4lautan__
+- Login ke portal.ichimarumaru.tech menggunakan username dan password yang telah diketahui
+- Lalu akan muncul halaman seperti ini
+![image](https://user-images.githubusercontent.com/62937814/134697623-5df6290b-8f61-4410-b8b6-686a8b66be83.png)
+Jawaban dari kelompok kami untuk urutan konfigurasi pengkabelan T568B adalah:  
+Urutan T568B :  
+Urutan ke 1 : Putih Orange  
+Urutan ke 2 : Orange  
+Urutan ke 3 : Putih Hijau  
+Urutan ke 4 : Biru  
+Urutan ke 5 : Putih Biru  
+Urutan ke 6 : Hijau  
+Urutan ke 7 : Putih Coklat  
+Urutan ke 8 : Coklat  
 
 
 ## Soal 6
