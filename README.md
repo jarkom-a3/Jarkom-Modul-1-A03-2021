@@ -100,6 +100,8 @@ Cari username dan password ketika melakukan login ke FTP Server!
   username = secretuser<br>
   password = aku.pengen.pw.aja
 
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
@@ -114,6 +116,8 @@ Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..
 - Buka file “Real.pdf” yang ada di dalam file “201.zip”<br>
   ![Soal7-4](https://user-images.githubusercontent.com/68326540/134660436-8d962f1a-4785-4479-9ea7-95142cbd3a04.jpg)
 
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
@@ -121,6 +125,10 @@ Cari paket yang menunjukan pengambilan file dari FTP tersebut!
   ```ftp-data.command contains "RETR"```
   ![Soal8](https://user-images.githubusercontent.com/68326540/134660703-c8d9d6c1-dd70-4b5b-8e38-8b0494fb436a.jpg)
   Tidak ditemukan paket pengambilan file dari FTP tersebut
+
+### Kendala yang dialami
+* Kami mengira salah syntax pada display filer, ternyata memang tidak ada paket penngambilan file dari FTP
+
 
 ## Soal 9
 Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
@@ -137,6 +145,9 @@ Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Sa
 - Buka file “secret.zip”<br>
   ![Soal9-4](https://user-images.githubusercontent.com/68326540/134661731-ff740f1e-4fa7-4317-87d7-7b123f3582d1.jpg)
   Terdapat file Wanted.pdf namun membutuhkan password untuk membukanya
+
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
@@ -159,7 +170,10 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 - Membuka File “Wanted.pdf”<br>
   ![Soal10-5](https://user-images.githubusercontent.com/68326540/134662781-b3f60690-a460-4ce2-b395-c8fcf6d34532.jpg) 
   ![Soal10-6](https://user-images.githubusercontent.com/68326540/134662806-12e3abd9-6e66-4839-b22d-30c2fd268a7f.jpg)
- 
+
+### Kendala yang dialami
+* tidak ada
+
 
 ## Soal 11
 
