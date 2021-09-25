@@ -23,11 +23,17 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 ```http.host == "ichimarumaru.tech"```
 ![image](https://user-images.githubusercontent.com/62937814/134696050-8100c26b-05ec-4951-a979-6472d04f01ff.png)
 
+### Kendala yang dialami
+* tidak ada
+
 ## Soal 2
 Temukan paket dari web-web yang menggunakan basic authentication method!
 - Jalankan filter command  
 ``http.authbasic``
 ![image](https://user-images.githubusercontent.com/62937814/134696206-2eb30b33-ee2d-4853-9fcc-bf1a725bd2b4.png)
+
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 3
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
@@ -55,6 +61,9 @@ Urutan ke 6 : Orange
 Urutan ke 7 : Putih Coklat  
 Urutan ke 8 : Coklat  
 
+### Kendala yang dialami
+* tidak ada
+
 ## Soal 4
 Temukan paket __mysql__ yang mengandung __perintah query select!__
 - Jalankan filter command  
@@ -64,6 +73,9 @@ Temukan paket __mysql__ yang mengandung __perintah query select!__
 - Untuk melihat isi dari masing-masing paket, klik dua kali pada paket yang ingin diketahui detailnya
 ![image](https://user-images.githubusercontent.com/62937814/134697128-c1f96df9-a1f9-48e9-9f1d-3f023c3c5087.png)
 ditemukan terdapat 3 paket yang mengandung perintah __query select__
+
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 5
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
@@ -89,6 +101,8 @@ Urutan ke 6 : Hijau
 Urutan ke 7 : Putih Coklat  
 Urutan ke 8 : Coklat  
 
+### Kendala yang dialami
+* tidak ada
 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!
